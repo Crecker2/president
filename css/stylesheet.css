@@ -1,9 +1,39 @@
+.nav{
+
+}
+
+.main{
+  display: block;
+  margin: 0 auto !important;
+  max-width: 1050px;
+}
 header{
+  position: relative;
+  background: url(../resources/images/banner.png);
   height: 500px;
-  background-color: red;
-  width: 100%;
+  background-position: 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header .title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 95px;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  color: #0451a9;
 }
 
 body{
   background-color: #fff !important;
+}
+
+@media(max-width: 767px){
+  header .title{
+    top: 58%;
+    font-size: 85px;
+  }
 }
