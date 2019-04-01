@@ -85,6 +85,9 @@ header .title{
   font-size: 28px;
 }
 @media(max-width: 767px){
+  header{
+    background-position: 60%;
+  }
   header .title{
     top: 58%;
     font-size: 85px;
