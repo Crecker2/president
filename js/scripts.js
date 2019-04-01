@@ -1,5 +1,6 @@
 window.onload = () => {
   initializeNav();
+  initializeBgParallax();
 };
 
 const initializeNav = () => {
@@ -27,4 +28,11 @@ const initializeNav = () => {
       nav.className = 'hidden';
     }
   }
+};
+
+const initializeBgParallax = () => {
+  const [ header ] = document.getElementsByTagName('header');
+  document.body.onscroll = () => {
+    header.style.backgroundPositionY = (window.scrollY / 5 - 10) + 'px';
+  };
 };

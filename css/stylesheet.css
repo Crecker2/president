@@ -12,10 +12,10 @@ header{
   position: relative;
   background: url(../resources/images/banner.png);
   height: 500px;
-  background-position: 65%;
+  background-color: #d7ecff;
+  background-position: 0 -10px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 header .title{
